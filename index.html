@@ -15,15 +15,26 @@
   <!-- Snow background canvas -->
   <canvas id="snowCanvas"></canvas>
 
-  <header class="site-header">
-    <h1>Christmas Advent Calendar</h1>
-    <p class="subtitle">Count down to Christmas with a new surprise each day.</p>
+ <header class="site-header">
+  <div class="village-banner">
+    <img
+      src="assets/img/north-pole-village.png"
+      alt="2026 Christmas Calendar - Magical North Pole Village"
+      class="village-image"
+    >
+  </div>
 
-    <div class="toolbar">
-      <!-- ❌ Music button removed -->
-      <button id="snowToggle" aria-pressed="true">❄️ Snow</button>
-    </div>
-  </header>
+  <p class="subtitle">
+    Welcome to the Magical North Pole!
+    A new Christmas adventure awaits behind every door.
+  </p>
+
+  <div class="toolbar">
+    <button id="snowToggle" aria-pressed="true">
+      ❄️ Snow
+    </button>
+  </div>
+</header>
 
   <main id="calendar" class="calendar"></main>
 
